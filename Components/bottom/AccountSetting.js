@@ -25,7 +25,6 @@ function AccountSetting({ navigation }) {
     // Create function named as InsertDataToServer() to send the Text Input data on server.
     function InsertDataToServer({ navigation }) {
 
-
         const fetchedData = fetch('http://192.168.1.77/E-Commerce/SubmitProduct.php', {
             method: 'POST',
             headers: {
